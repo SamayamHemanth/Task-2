@@ -1,0 +1,61 @@
+Document object: We can access the elements in the html by accessing the document object with the help of this we 
+can add dynamic content to our web page.It can be accessed with a window.document or just document.
+
+Syntax:
+        document.propertyname;
+
+properties of document objects that are used like body,activeElement,domain,doctype, etc...
+
+
+Window object: Window object represents a browser window or frame that displays the contents of the webpage.It is one
+               of the most important object in the Document Object Model (DOM) hierarchy.
+
+Syntax:
+        window.propertyname;
+
+properties of window objects that are used like closed,customElements,frames,Length, etc...
+
+
+Difference between document and window objects:
+
+
+
+Document object : * Document represents any HTML document or web page that is loaded in the browser.
+ 
+                  * It is loaded inside the window.
+
+                  * It is the object of the window property.
+
+                  * Elements and tags with all attributes in the HTML are part of the document.
+
+                  * Document access can done from a window using the window.document.
+
+                  * The document is a part of BOM(Browser Object Model) and DOM(Document Object Model).
+
+                  * properties of the document object such as title,body,cookies,etc.. can also be accessed by a
+                    window like this window.document.title.
+
+                  * syntax: document.propertyname;
+
+                  * Example: document.title - it will return the title of the document.
+
+
+
+Window Object: * Window represents a browser window or frame that displays the contents of the webpage.
+
+               * Window is the first object that is loaded in the browser.
+            
+               * It is the object of the browser.
+
+               * Members of the window object are Global objects,functions and variables of the javascript.
+
+               * Window access can be done only from the window. i.e. window.window .
+
+               * It a part of BOM(Browser Object Model) and not a part of DOM(Document Object Model).
+
+               * window object properties can not be accessed by the document object such as innerHeight,frames,innerWidth,
+                 Length,Navigator, Name, etc...
+
+               * Syntax: window.propertyname;
+
+               * Example: Window.innerHeight - It will return the height of the content area of the browser.
